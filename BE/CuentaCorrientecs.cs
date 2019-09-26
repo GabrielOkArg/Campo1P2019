@@ -8,6 +8,6 @@ namespace BE
 {
     public class CuentaCorrientecs: CajaAhorro
     {
-        public const int SaldoNegativo = 1500;
+        
     }
 }

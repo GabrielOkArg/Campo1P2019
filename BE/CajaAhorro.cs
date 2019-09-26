@@ -10,5 +10,7 @@ namespace BE
     {
         public int NumCaja { get; set; }
         public int Saldo { get; set; }
+
+        public int SaldoNegativo = 0;
     }
 }
