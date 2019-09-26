@@ -55,6 +55,11 @@ namespace BLL
                 if (TraferenciaValida)
                 {
                     cajaAhorro1.Saldo += monto;
+                    return true;
+                }
+                else
+                {
+                    throw new Exception("No se pudo realizar la trassaccion");
                 }
                 return false;
             }
